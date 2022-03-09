@@ -1,5 +1,12 @@
 # Releases
 
+## [1.0.2](https://github.com/shadow81627/daim-api/compare/v1.0.1...v1.0.2) (2022-03-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fruitcake/laravel-cors to v3 ([cc1ebd5](https://github.com/shadow81627/daim-api/commit/cc1ebd512ed8128433346ec27a6fb55cb9ef5457))
+
 ## [1.0.1](https://github.com/shadow81627/daim-api/compare/v1.0.0...v1.0.1) (2022-03-08)
 
 
