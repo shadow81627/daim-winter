@@ -1,5 +1,12 @@
 # Releases
 
+## [1.0.5](https://github.com/shadow81627/daim-api/compare/v1.0.4...v1.0.5) (2022-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency guzzlehttp/guzzle to v7.4.2 ([f4b0bb2](https://github.com/shadow81627/daim-api/commit/f4b0bb2f059ee5dd9e6a5982620d726f5459e677))
+
 ## [1.0.4](https://github.com/shadow81627/daim-api/compare/v1.0.3...v1.0.4) (2022-03-16)
 
 
