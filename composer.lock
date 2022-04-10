@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9fbc6e8afef76ce3c8f522b1b24c67c",
+    "content-hash": "57132de65b9ae26e0108a0a29c171497",
     "packages": [
         {
             "name": "brick/math",
@@ -1237,16 +1237,16 @@
         },
         {
             "name": "laravel-json-api/laravel",
-            "version": "v2.1.2",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-json-api/laravel.git",
-                "reference": "0acdae792da2661576a41d0ad0282c2a2eb911fd"
+                "reference": "43bdb4150a9b4f03fc49805e63601176bd353227"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-json-api/laravel/zipball/0acdae792da2661576a41d0ad0282c2a2eb911fd",
-                "reference": "0acdae792da2661576a41d0ad0282c2a2eb911fd",
+                "url": "https://api.github.com/repos/laravel-json-api/laravel/zipball/43bdb4150a9b4f03fc49805e63601176bd353227",
+                "reference": "43bdb4150a9b4f03fc49805e63601176bd353227",
                 "shasum": ""
             },
             "require": {
@@ -1309,9 +1309,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-json-api/laravel/issues",
-                "source": "https://github.com/laravel-json-api/laravel/tree/v2.1.2"
+                "source": "https://github.com/laravel-json-api/laravel/tree/v2.2.0"
             },
-            "time": "2022-04-04T13:22:26+00:00"
+            "time": "2022-04-10T13:58:35+00:00"
         },
         {
             "name": "laravel-json-api/neomerx-json-api",
@@ -1385,16 +1385,16 @@
         },
         {
             "name": "laravel-json-api/spec",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-json-api/spec.git",
-                "reference": "b6a6ba870b6a3951058be9dec82c910bc4d77bbe"
+                "reference": "b159d1958c15124cbd257289a6da196b45a1573f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-json-api/spec/zipball/b6a6ba870b6a3951058be9dec82c910bc4d77bbe",
-                "reference": "b6a6ba870b6a3951058be9dec82c910bc4d77bbe",
+                "url": "https://api.github.com/repos/laravel-json-api/spec/zipball/b159d1958c15124cbd257289a6da196b45a1573f",
+                "reference": "b159d1958c15124cbd257289a6da196b45a1573f",
                 "shasum": ""
             },
             "require": {
@@ -1449,9 +1449,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-json-api/spec/issues",
-                "source": "https://github.com/laravel-json-api/spec/tree/v1.1.1"
+                "source": "https://github.com/laravel-json-api/spec/tree/v1.2.0"
             },
-            "time": "2022-04-01T19:41:18+00:00"
+            "time": "2022-04-10T13:29:07+00:00"
         },
         {
             "name": "laravel-json-api/validation",
