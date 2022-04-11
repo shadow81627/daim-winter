@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57132de65b9ae26e0108a0a29c171497",
+    "content-hash": "d2f6abcfe05fbbc66d4201c0904211a4",
     "packages": [
         {
             "name": "brick/math",
@@ -1237,16 +1237,16 @@
         },
         {
             "name": "laravel-json-api/laravel",
-            "version": "v2.2.0",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-json-api/laravel.git",
-                "reference": "43bdb4150a9b4f03fc49805e63601176bd353227"
+                "reference": "5da3145033c9f74186b24e38ca0e2b2a6c5353d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-json-api/laravel/zipball/43bdb4150a9b4f03fc49805e63601176bd353227",
-                "reference": "43bdb4150a9b4f03fc49805e63601176bd353227",
+                "url": "https://api.github.com/repos/laravel-json-api/laravel/zipball/5da3145033c9f74186b24e38ca0e2b2a6c5353d1",
+                "reference": "5da3145033c9f74186b24e38ca0e2b2a6c5353d1",
                 "shasum": ""
             },
             "require": {
@@ -1255,8 +1255,8 @@
                 "laravel-json-api/eloquent": "^2.1.1",
                 "laravel-json-api/encoder-neomerx": "^2.0",
                 "laravel-json-api/exceptions": "^1.1",
-                "laravel-json-api/spec": "^1.1.1",
-                "laravel-json-api/validation": "^2.0",
+                "laravel-json-api/spec": "^1.2",
+                "laravel-json-api/validation": "^2.1",
                 "laravel/framework": "^8.76|^9.0",
                 "php": "^7.4|^8.0"
             },
@@ -1309,9 +1309,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-json-api/laravel/issues",
-                "source": "https://github.com/laravel-json-api/laravel/tree/v2.2.0"
+                "source": "https://github.com/laravel-json-api/laravel/tree/v2.3.0"
             },
-            "time": "2022-04-10T13:58:35+00:00"
+            "time": "2022-04-11T17:46:25+00:00"
         },
         {
             "name": "laravel-json-api/neomerx-json-api",
@@ -1455,16 +1455,16 @@
         },
         {
             "name": "laravel-json-api/validation",
-            "version": "v2.0.0",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-json-api/validation.git",
-                "reference": "b90d1e8019639645e3bd52f29c357c4c1ef40ca1"
+                "reference": "771e6671fdb94bbcec9801f8688dbb754ff6f875"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-json-api/validation/zipball/b90d1e8019639645e3bd52f29c357c4c1ef40ca1",
-                "reference": "b90d1e8019639645e3bd52f29c357c4c1ef40ca1",
+                "url": "https://api.github.com/repos/laravel-json-api/validation/zipball/771e6671fdb94bbcec9801f8688dbb754ff6f875",
+                "reference": "771e6671fdb94bbcec9801f8688dbb754ff6f875",
                 "shasum": ""
             },
             "require": {
@@ -1518,9 +1518,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-json-api/validation/issues",
-                "source": "https://github.com/laravel-json-api/validation/tree/v2.0.0"
+                "source": "https://github.com/laravel-json-api/validation/tree/v2.1.0"
             },
-            "time": "2022-02-09T18:37:28+00:00"
+            "time": "2022-04-11T17:40:26+00:00"
         },
         {
             "name": "laravel/framework",
