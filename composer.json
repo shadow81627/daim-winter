@@ -10,7 +10,7 @@
         "guzzlehttp/guzzle": "7.4.2",
         "laravel-json-api/laravel": "2.3.0",
         "laravel/framework": "8.83.8",
-        "laravel/sanctum": "2.15.0",
+        "laravel/sanctum": "2.15.1",
         "laravel/tinker": "2.7.2"
     },
     "require-dev": {
