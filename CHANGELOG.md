@@ -1,5 +1,12 @@
 # Releases
 
+## [1.0.15](https://github.com/shadow81627/daim-api/compare/v1.0.14...v1.0.15) (2022-04-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/sanctum to v2.15.1 ([d9c7ea0](https://github.com/shadow81627/daim-api/commit/d9c7ea0818855d0b6e4c5b66ea9c9d6514d5903c))
+
 ## [1.0.14](https://github.com/shadow81627/daim-api/compare/v1.0.13...v1.0.14) (2022-04-12)
 
 
