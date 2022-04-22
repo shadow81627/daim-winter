@@ -1,0 +1,12 @@
+version: '3'
+services:
+    laravel:
+      restart: always
+    pgsql:
+        restart: always
+    redis:
+        restart: always
+    meilisearch:
+        restart: always
+    mailhog:
+        restart: always

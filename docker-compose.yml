@@ -1,7 +1,7 @@
 # For more information: https://laravel.com/docs/sail
 version: '3'
 services:
-    laravel.test:
+    laravel:
         build:
             context: ./vendor/laravel/sail/runtimes/8.0
             dockerfile: Dockerfile
@@ -22,40 +22,47 @@ services:
         volumes:
             - '.:/var/www/html'
         networks:
-            - sail
+            - daim-api
         depends_on:
             - pgsql
             - redis
             - meilisearch
             # - selenium
     pgsql:
-      image: postgres:14
-      ports:
-          - '${FORWARD_DB_PORT:-5432}:5432'
-      environment:
-          PGPASSWORD: '${DB_PASSWORD:-secret}'
-          POSTGRES_DB: '${DB_DATABASE}'
-          POSTGRES_USER: '${DB_USERNAME}'
-          POSTGRES_PASSWORD: '${DB_PASSWORD:-secret}'
-      env_file:
-          - .env
-      volumes:
-          - 'sail-pgsql:/var/lib/postgresql/data'
-      networks:
-          - sail
-      healthcheck:
-        test: ["CMD", "pg_isready", "-q", "-d", "${DB_DATABASE}", "-U", "${DB_USERNAME}"]
+        image: postgres:14
+        ports:
+            - '${FORWARD_DB_PORT:-5432}:5432'
+        environment:
+            PGPASSWORD: '${DB_PASSWORD:-secret}'
+            POSTGRES_DB: '${DB_DATABASE}'
+            POSTGRES_USER: '${DB_USERNAME}'
+            POSTGRES_PASSWORD: '${DB_PASSWORD:-secret}'
+        volumes:
+            - 'daim-api-pgsql:/var/lib/postgresql/data'
+        networks:
+            - daim-api
+        healthcheck:
+            test:
+                [
+                    "CMD",
+                    "pg_isready",
+                    "-q",
+                    "-d",
+                    "${DB_DATABASE}",
+                    "-U",
+                    "${DB_USERNAME}"
+                ]
 
     redis:
         image: 'redis:alpine'
         ports:
             - '${FORWARD_REDIS_PORT:-6379}:6379'
         volumes:
-            - 'sail-redis:/data'
+            - 'daim-api-redis:/data'
         networks:
-            - sail
+            - daim-api
         healthcheck:
-            test: ["CMD", "redis-cli", "ping"]
+            test: [ "CMD", "redis-cli", "ping" ]
             retries: 3
             timeout: 5s
     meilisearch:
@@ -63,11 +70,18 @@ services:
         ports:
             - '${FORWARD_MEILISEARCH_PORT:-7700}:7700'
         volumes:
-            - 'sail-meilisearch:/data.ms'
+            - 'daim-api-meilisearch:/data.ms'
         networks:
-            - sail
+            - daim-api
         healthcheck:
-            test: ["CMD", "wget", "--no-verbose", "--spider",  "http://localhost:7700/health"]
+            test:
+                [
+                    "CMD",
+                    "wget",
+                    "--no-verbose",
+                    "--spider",
+                    "http://localhost:7700/health"
+                ]
             retries: 3
             timeout: 5s
     mailhog:
@@ -76,7 +90,7 @@ services:
             - '${FORWARD_MAILHOG_PORT:-1025}:1025'
             - '${FORWARD_MAILHOG_DASHBOARD_PORT:-8025}:8025'
         networks:
-            - sail
+            - daim-api
     # selenium:
     #     image: 'selenium/standalone-chrome'
     #     volumes:
@@ -84,12 +98,12 @@ services:
     #     networks:
     #         - sail
 networks:
-    sail:
+    daim-api:
         driver: bridge
 volumes:
-    sail-pgsql:
+    daim-api-pgsql:
         driver: local
-    sail-redis:
+    daim-api-redis:
         driver: local
-    sail-meilisearch:
+    daim-api-meilisearch:
         driver: local
