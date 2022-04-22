@@ -71,3 +71,5 @@ Dry run
 ```bash
 docker-compose -f docker-compose.yml -f docker-compose.prod.yml config
 ```
+
+<https://itnext.io/a-beginners-guide-to-deploying-a-docker-application-to-production-using-docker-compose-de1feccd2893>
