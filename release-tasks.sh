@@ -3,8 +3,8 @@ set -e
 
 echo "Deploying application ..."
 
-npm ci
-npm run production
+yarn install
+yarn run production
 
 # Enter maintenance mode
 (php artisan down --message 'The app is being (quickly!) updated. Please try again in a minute.') || true
@@ -31,6 +31,6 @@ npm run production
 # Exit maintenance mode
 php artisan up
 
-php artisan enlightn --ci --report
+# php artisan enlightn --ci --report
 
 echo "Application deployed!"
