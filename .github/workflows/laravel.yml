@@ -56,11 +56,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2-beta
         with:
-          node-version: 14
+          node-version: 16
           check-latest: true
+          cache: yarn
 
       - name: Install NPM dependencies
-        run: yarn ci
+        run: yarn install
 
       - name: Compile assets for production
         run: yarn run production
