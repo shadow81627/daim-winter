@@ -60,7 +60,7 @@ jobs:
           check-latest: true
 
       - name: Install NPM dependencies
-        run: npm install
+        run: npm ci
 
       - name: Compile assets for production
         run: npm run production
