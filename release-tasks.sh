@@ -3,9 +3,6 @@ set -e
 
 echo "Deploying application ..."
 
-yarn install
-yarn run production
-
 # Enter maintenance mode
 (php artisan down --message 'The app is being (quickly!) updated. Please try again in a minute.') || true
     # Update codebase
@@ -30,6 +27,9 @@ yarn run production
     echo "" | sudo -S service php8.0-fpm reload
 # Exit maintenance mode
 php artisan up
+
+yarn install
+yarn run production
 
 # php artisan enlightn --ci --report
 
