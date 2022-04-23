@@ -5,10 +5,6 @@ echo "Deploying application ..."
 
 # Enter maintenance mode
 (php artisan down) || true
-    # Update codebase
-    git fetch origin main
-    git reset --hard origin/main
-
     # Install dependencies based on lock file
     composer install --no-interaction --prefer-dist --optimize-autoloader
 

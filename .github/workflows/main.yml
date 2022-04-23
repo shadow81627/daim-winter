@@ -16,7 +16,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         username: ${{ secrets.SSH_USERNAME }}
         script: |
-          export NVM_DIR=~/.nvm
-          source ~/.nvm/nvm.sh
           cd /srv/www/daim-api/
-          ./release-tasks.sh
+          git fetch origin main
+          git reset --hard origin/main
+          docker exec daim-api_laravel_1 ./release-tasks.sh
