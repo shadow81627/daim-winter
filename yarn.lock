@@ -3098,6 +3098,7 @@ __metadata:
     laravel-mix: 6.0.43
     lodash: 4.17.21
     postcss: 8.4.12
+    webpack: 5.72.0
   languageName: unknown
   linkType: soft
 
@@ -7359,7 +7360,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.60.0":
+"webpack@npm:5.72.0, webpack@npm:^5.60.0":
   version: 5.72.0
   resolution: "webpack@npm:5.72.0"
   dependencies:
