@@ -1,5 +1,12 @@
 # Releases
 
+# [1.1.0](https://github.com/shadow81627/daim-api/compare/v1.0.18...v1.1.0) (2022-05-13)
+
+
+### Features
+
+* tenancy ([#67](https://github.com/shadow81627/daim-api/issues/67)) ([2d16aee](https://github.com/shadow81627/daim-api/commit/2d16aeea21d98d18b28a310551e210131b810a0b))
+
 ## [1.0.18](https://github.com/shadow81627/daim-api/compare/v1.0.17...v1.0.18) (2022-05-13)
 
 
