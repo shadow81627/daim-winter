@@ -19,7 +19,7 @@ jobs:
           node-version: 12
       - name: Release 🚀
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx -p @semantic-release/changelog@5 -p @semantic-release/git@9 -p semantic-release@17 semantic-release
       # - name: Create Sentry release
       #   uses: getsentry/action-release@v1
