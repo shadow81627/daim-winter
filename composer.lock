@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b37a8ef0c4b0b9f6fcf55cbf1f472914",
+    "content-hash": "a455ed846a68489d6216a57b5eabd0df",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -6286,39 +6286,36 @@
         },
         {
             "name": "tcg/voyager",
-            "version": "v1.5.2",
+            "version": "1.6.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-control-group/voyager.git",
-                "reference": "8c3c1dde896a047b1334d68f6d6a1d32fd07df1b"
+                "reference": "b384421603b579eff21d5cd7c25f375bccc93a0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/8c3c1dde896a047b1334d68f6d6a1d32fd07df1b",
-                "reference": "8c3c1dde896a047b1334d68f6d6a1d32fd07df1b",
+                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/b384421603b579eff21d5cd7c25f375bccc93a0a",
+                "reference": "b384421603b579eff21d5cd7c25f375bccc93a0a",
                 "shasum": ""
             },
             "require": {
                 "arrilot/laravel-widgets": "^3.7",
                 "doctrine/dbal": "^2.5",
                 "ext-json": "*",
-                "illuminate/support": "~6.0|~7.0|~8.0",
+                "illuminate/support": "~8.0|~9.0",
                 "intervention/image": "^2.4",
                 "larapack/doctrine-support": "~0.1.4",
                 "laravel/ui": ">=1.0",
-                "league/flysystem": "~1.1|~2.0",
+                "league/flysystem": "~1.1|~2.0|~3.0",
                 "php": "^7.3|^7.4|^8.0"
             },
             "require-dev": {
-                "laravel/browser-kit-testing": ">=5.0.0",
-                "laravel/framework": "~6.0|~7.0|~8.0",
+                "laravel/browser-kit-testing": ">=6.1.0",
+                "laravel/framework": "~8.0|~9.0",
                 "orchestra/testbench": ">=4.0",
                 "orchestra/testbench-browser-kit": ">=4.0",
                 "phpunit/phpcov": ">=6.0",
                 "phpunit/phpunit": ">=8.0"
-            },
-            "suggest": {
-                "laravel/legacy-factories": "Required to run Voyager tests with Laravel 8.x"
             },
             "type": "library",
             "extra": {
@@ -6377,7 +6374,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-09T08:33:29+00:00"
+            "time": "2022-05-04T07:20:57+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -9307,7 +9304,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "tcg/voyager": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

@@ -13,7 +13,7 @@
         "laravel/sanctum": "2.15.1",
         "laravel/tinker": "2.7.2",
         "stancl/tenancy": "3.5.6",
-        "tcg/voyager": "1.5.2"
+        "tcg/voyager": "1.6.x-dev"
     },
     "require-dev": {
         "spatie/laravel-ignition": "1.0",
