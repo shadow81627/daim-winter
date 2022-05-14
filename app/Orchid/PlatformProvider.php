@@ -43,6 +43,11 @@ class PlatformProvider extends OrchidServiceProvider
                     Menu::make('Sub element item 2')->icon('heart'),
                 ]),
 
+            Menu::make('Email sender')
+                ->icon('envelope-letter')
+                ->title('Tools')
+                ->route('platform.email'),
+
             Menu::make('Basic Elements')
                 ->title('Form controls')
                 ->icon('note')
