@@ -1,5 +1,12 @@
 # Releases
 
+## [1.1.1](https://github.com/shadow81627/daim-api/compare/v1.1.0...v1.1.1) (2022-05-14)
+
+
+### Bug Fixes
+
+* **deps:** Laravel 9 ([#70](https://github.com/shadow81627/daim-api/issues/70)) ([bf28514](https://github.com/shadow81627/daim-api/commit/bf28514d7b0dd345055efb5db2e87a3ed791deb8))
+
 # [1.1.0](https://github.com/shadow81627/daim-api/compare/v1.0.18...v1.1.0) (2022-05-13)
 
 
