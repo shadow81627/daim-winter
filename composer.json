@@ -12,7 +12,7 @@
         "laravel/framework": "9.12.2",
         "laravel/sanctum": "2.15.1",
         "laravel/tinker": "2.7.2",
-        "stancl/tenancy": "3.5.6"
+        "stancl/tenancy": "3.5"
     },
     "require-dev": {
         "spatie/laravel-ignition": "1.0",
