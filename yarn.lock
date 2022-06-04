@@ -3112,7 +3112,7 @@ __metadata:
   resolution: "daim-api@workspace:."
   dependencies:
     axios: 0.27.2
-    laravel-mix: 6.0.44
+    laravel-mix: 6.0.47
     lodash: 4.17.21
     postcss: 8.4.14
     webpack: 5.73.0
@@ -4644,9 +4644,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"laravel-mix@npm:6.0.44":
-  version: 6.0.44
-  resolution: "laravel-mix@npm:6.0.44"
+"laravel-mix@npm:6.0.47":
+  version: 6.0.47
+  resolution: "laravel-mix@npm:6.0.47"
   dependencies:
     "@babel/core": ^7.15.8
     "@babel/plugin-proposal-object-rest-spread": ^7.15.6
@@ -4710,7 +4710,7 @@ __metadata:
   bin:
     laravel-mix: bin/cli.js
     mix: bin/cli.js
-  checksum: aa8a422207b3230dbf76e35aae9a2dc324831266d4878753c92e10a1f95f39219c0ca97a8b2078a7d171a018ec59b5b452f3d9aa1780d8fc457ce0223f36a4eb
+  checksum: 330ea36086da491949250eab9d943b05dd25df113c9682a945aefe34aa587db5ada9607972693b53509cd442a422ade73fc5f2f85d97c70945f50887e88ae9f9
   languageName: node
   linkType: hard
 
