@@ -12,6 +12,7 @@
         "laravel/framework": "9.12.2",
         "laravel/sanctum": "2.15.1",
         "laravel/tinker": "2.7.2",
+        "orchid/platform": "^12.4",
         "stancl/tenancy": "3.5.6"
     },
     "require-dev": {
@@ -43,6 +44,7 @@
             "@php artisan package:discover --ansi"
         ],
         "post-update-cmd": [
+            "@php artisan orchid:publish --ansi",
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
         ],
         "post-root-package-install": [
