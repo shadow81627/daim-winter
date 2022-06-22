@@ -1,5 +1,12 @@
 # Releases
 
+## [1.1.6](https://github.com/shadow81627/daim-api/compare/v1.1.5...v1.1.6) (2022-06-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v9.18.0 ([b4a44b7](https://github.com/shadow81627/daim-api/commit/b4a44b7b318fe5554d27a129f8f67473b7a58381))
+
 ## [1.1.5](https://github.com/shadow81627/daim-api/compare/v1.1.4...v1.1.5) (2022-06-21)
 
 
