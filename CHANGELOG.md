@@ -1,5 +1,12 @@
 # Releases
 
+## [1.1.7](https://github.com/shadow81627/daim-api/compare/v1.1.6...v1.1.7) (2022-06-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel-json-api/laravel to v2.4.0 ([66b4630](https://github.com/shadow81627/daim-api/commit/66b4630db5c8d1e1f0946253a8f7190e2b9f74b8))
+
 ## [1.1.6](https://github.com/shadow81627/daim-api/compare/v1.1.5...v1.1.6) (2022-06-22)
 
 
