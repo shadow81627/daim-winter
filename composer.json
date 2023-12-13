@@ -14,7 +14,7 @@
         "stancl/tenancy": "^3.7"
     },
     "require-dev": {
-        "fakerphp/faker": "1.19.0",
+        "fakerphp/faker": "1.23.0",
         "laravel-json-api/testing": "^2.1",
         "laravel/sail": "^1.26",
         "mockery/mockery": "1.5.0",
