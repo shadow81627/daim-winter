@@ -7,6 +7,10 @@ use Stancl\Tenancy\Middleware\InitializeTenancyByDomain;
 use Stancl\Tenancy\Middleware\PreventAccessFromCentralDomains;
 use Stancl\Tenancy\Middleware\InitializeTenancyByPath;
 
+use App\Http\Controllers\Api\Tenant\ArticleController;
+use LaravelJsonApi\Laravel\Facades\JsonApiRoute;
+use LaravelJsonApi\Laravel\Routing\ResourceRegistrar;
+
 /*
 |--------------------------------------------------------------------------
 | Tenant Routes
@@ -36,4 +40,8 @@ Route::group([
     Route::get('/', function () {
         return 'This is your multi-tenant application. The id of the current tenant is ' . tenant('id');
     });
+    JsonApiRoute::server('tenant')
+        ->resources(function (ResourceRegistrar $server) {
+            $server->resource('articles', ArticleController::class);
+        });
 });
