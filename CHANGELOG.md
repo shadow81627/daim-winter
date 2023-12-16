@@ -1,5 +1,16 @@
 # Releases
 
+## [1.1.9](https://github.com/shadow81627/daim-api/compare/v1.1.8...v1.1.9) (2023-12-16)
+
+
+### Bug Fixes
+
+* **deps:** laravel 10 ([ed73823](https://github.com/shadow81627/daim-api/commit/ed73823f11f582b37342d3561adf9a6da85e117b))
+* **deps:** update dependency laravel/framework to v10.37.2 ([2babb89](https://github.com/shadow81627/daim-api/commit/2babb8950309666e65f5937211819c34bd32fe9d))
+* **deps:** update dependency laravel/framework to v10.37.3 ([c6f7848](https://github.com/shadow81627/daim-api/commit/c6f7848e44cb6250116e211f115a6bdc6a3efdec))
+* **middleware:** replace cors package to use laravel ([1eb2bc8](https://github.com/shadow81627/daim-api/commit/1eb2bc812468cd5778e6d2dcea9a8bed43935144))
+* **migrations:** add user table migration ([ef0366a](https://github.com/shadow81627/daim-api/commit/ef0366a68ec15ab210fb2c76b60a2cb0c2863b67))
+
 ## [1.1.8](https://github.com/shadow81627/daim-api/compare/v1.1.7...v1.1.8) (2022-06-28)
 
 
