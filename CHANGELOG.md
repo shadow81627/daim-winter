@@ -1,5 +1,12 @@
 # Releases
 
+## [1.1.14](https://github.com/shadow81627/daim-api/compare/v1.1.13...v1.1.14) (2023-12-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/sanctum to v3.3.3 ([00b4e4b](https://github.com/shadow81627/daim-api/commit/00b4e4b61a299a01b667eec65067d35f30871189))
+
 ## [1.1.13](https://github.com/shadow81627/daim-api/compare/v1.1.12...v1.1.13) (2023-12-22)
 
 
