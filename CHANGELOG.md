@@ -1,5 +1,12 @@
 # Releases
 
+## [1.1.17](https://github.com/shadow81627/daim-api/compare/v1.1.16...v1.1.17) (2024-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/tinker to v2.9.0 ([9461407](https://github.com/shadow81627/daim-api/commit/946140725a2ce815c0c0f2c5b9b2c314fe369297))
+
 ## [1.1.16](https://github.com/shadow81627/daim-api/compare/v1.1.15...v1.1.16) (2024-01-09)
 
 
