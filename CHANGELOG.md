@@ -1,5 +1,18 @@
 # Releases
 
+# [1.2.0](https://github.com/shadow81627/daim-api/compare/v1.1.17...v1.2.0) (2024-01-15)
+
+
+### Bug Fixes
+
+* **exception handler:** use json api ([a1a6b2d](https://github.com/shadow81627/daim-api/commit/a1a6b2dcd4a08163ff9bb8eee20a5aef40671378))
+* **tenant migrations:** rename files to match class ([6b89101](https://github.com/shadow81627/daim-api/commit/6b891012a7f8d6109b555b93ded5cb06d554a567))
+
+
+### Features
+
+* add articles resource ([f49f3b0](https://github.com/shadow81627/daim-api/commit/f49f3b09024a414153e94586e5149580ba4fe234))
+
 ## [1.1.17](https://github.com/shadow81627/daim-api/compare/v1.1.16...v1.1.17) (2024-01-10)
 
 
