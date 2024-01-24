@@ -20,6 +20,7 @@
         "mockery/mockery": "1.6.7",
         "nunomaduro/collision": "^7.0",
         "phpunit/phpunit": "^10",
+        "serversideup/spin": "^1.1",
         "spatie/laravel-ignition": "^2.0",
         "squizlabs/php_codesniffer": "3.8.1"
     },
