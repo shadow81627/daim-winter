@@ -1,5 +1,12 @@
 # Releases
 
+## [1.2.11](https://github.com/shadow81627/daim-api/compare/v1.2.10...v1.2.11) (2024-03-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel-json-api/laravel to v3.4.0 ([b7484fa](https://github.com/shadow81627/daim-api/commit/b7484fa513b15ab7a3c0eac563e2acb80155b47c))
+
 ## [1.2.10](https://github.com/shadow81627/daim-api/compare/v1.2.9...v1.2.10) (2024-02-28)
 
 
