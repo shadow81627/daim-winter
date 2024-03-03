@@ -1363,16 +1363,16 @@
         },
         {
             "name": "laravel-json-api/laravel",
-            "version": "v3.3.0",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-json-api/laravel.git",
-                "reference": "3ebee3b4d2c6d03113af9c4f2ef24d3a44bfbf97"
+                "reference": "0f383879ef05b120eef0b354666e64bd375c8b9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-json-api/laravel/zipball/3ebee3b4d2c6d03113af9c4f2ef24d3a44bfbf97",
-                "reference": "3ebee3b4d2c6d03113af9c4f2ef24d3a44bfbf97",
+                "url": "https://api.github.com/repos/laravel-json-api/laravel/zipball/0f383879ef05b120eef0b354666e64bd375c8b9c",
+                "reference": "0f383879ef05b120eef0b354666e64bd375c8b9c",
                 "shasum": ""
             },
             "require": {
@@ -1435,9 +1435,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-json-api/laravel/issues",
-                "source": "https://github.com/laravel-json-api/laravel/tree/v3.3.0"
+                "source": "https://github.com/laravel-json-api/laravel/tree/v3.4.0"
             },
-            "time": "2024-02-14T19:10:53+00:00"
+            "time": "2024-03-03T12:48:27+00:00"
         },
         {
             "name": "laravel-json-api/neomerx-json-api",
