@@ -1,5 +1,13 @@
 # Releases
 
+## [1.2.18](https://github.com/shadow81627/daim-api/compare/v1.2.17...v1.2.18) (2024-04-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v10.48.7 ([782b0d4](https://github.com/shadow81627/daim-api/commit/782b0d4c1511fb18bfaf731aada78166b1902444))
+* **deps:** update dependency stancl/tenancy to v3.8.1 ([7841a5f](https://github.com/shadow81627/daim-api/commit/7841a5f0b5030fce1e1fbe9f9ca05d12c41dcb3e))
+
 ## [1.2.17](https://github.com/shadow81627/daim-api/compare/v1.2.16...v1.2.17) (2024-04-09)
 
 
