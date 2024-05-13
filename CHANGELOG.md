@@ -1,5 +1,12 @@
 # Releases
 
+## [1.2.20](https://github.com/shadow81627/daim-api/compare/v1.2.19...v1.2.20) (2024-05-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stancl/tenancy to v3.8.3 ([9be472d](https://github.com/shadow81627/daim-api/commit/9be472d76e5adfd65bc64c414c5c91821bf1991e))
+
 ## [1.2.19](https://github.com/shadow81627/daim-api/compare/v1.2.18...v1.2.19) (2024-04-14)
 
 
