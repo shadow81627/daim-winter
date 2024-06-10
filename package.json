@@ -18,5 +18,5 @@
         "webpack": "5.91.0"
     },
     "version": "1.2.23",
-    "packageManager": "yarn@4.2.2"
+    "packageManager": "yarn@4.3.0"
 }
