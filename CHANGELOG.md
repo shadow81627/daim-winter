@@ -1,5 +1,12 @@
 # Releases
 
+## [1.2.25](https://github.com/shadow81627/daim-api/compare/v1.2.24...v1.2.25) (2024-06-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v10.48.14 ([a6f174e](https://github.com/shadow81627/daim-api/commit/a6f174ed3971b84110d08f3e79c2e40e068b9bbb))
+
 ## [1.2.24](https://github.com/shadow81627/daim-api/compare/v1.2.23...v1.2.24) (2024-06-18)
 
 
