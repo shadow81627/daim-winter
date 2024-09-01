@@ -3225,7 +3225,7 @@ __metadata:
     axios: "npm:1.6.7"
     laravel-mix: "npm:6.0.49"
     lodash: "npm:4.17.21"
-    postcss: "npm:8.4.41"
+    postcss: "npm:8.4.42"
     webpack: "npm:5.94.0"
   languageName: unknown
   linkType: soft
@@ -6223,7 +6223,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.41, postcss@npm:^8.2.15":
+"postcss@npm:8.4.42":
+  version: 8.4.42
+  resolution: "postcss@npm:8.4.42"
+  dependencies:
+    nanoid: "npm:^3.3.7"
+    picocolors: "npm:^1.0.1"
+    source-map-js: "npm:^1.2.0"
+  checksum: 10c0/ac4dd01b07b2b9db12c24284aed497d35436ed05e4944be6cf00eb8daa4914fd9fbc5ec729e47981b4f1a9c51847d043d1808c796b9440ae0c5e8ff7a29bc821
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.2.15":
   version: 8.4.41
   resolution: "postcss@npm:8.4.41"
   dependencies:
