@@ -15,7 +15,7 @@
         "laravel-mix": "6.0.49",
         "lodash": "4.17.21",
         "postcss": "8.4.47",
-        "webpack": "5.94.0"
+        "webpack": "5.95.0"
     },
     "version": "1.2.36",
     "packageManager": "yarn@4.5.0"
