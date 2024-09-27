@@ -29,7 +29,7 @@ services:
             - redis
             - meilisearch
     pgsql:
-        image: 'postgres:16'
+        image: 'postgres:17'
         ports:
             - '${FORWARD_DB_PORT:-5432}:5432'
         environment:
