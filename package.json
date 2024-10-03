@@ -17,6 +17,6 @@
         "postcss": "8.4.47",
         "webpack": "5.95.0"
     },
-    "version": "1.2.36",
+    "version": "1.2.37",
     "packageManager": "yarn@4.5.0"
 }
