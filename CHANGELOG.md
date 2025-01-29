@@ -1,5 +1,12 @@
 # Releases
 
+## [1.2.43](https://github.com/shadow81627/daim-api/compare/v1.2.42...v1.2.43) (2025-01-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/tinker to v2.10.1 ([#445](https://github.com/shadow81627/daim-api/issues/445)) ([513999f](https://github.com/shadow81627/daim-api/commit/513999f365a60a4b4012b66ba31e20f2ef509efb))
+
 ## [1.2.42](https://github.com/shadow81627/daim-api/compare/v1.2.41...v1.2.42) (2025-01-24)
 
 
